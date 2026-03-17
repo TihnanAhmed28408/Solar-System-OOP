@@ -65,5 +65,4 @@ if __name__ == "__main__":
     unittest.main()
 
 
-
 """ class with unittests for solar system class """

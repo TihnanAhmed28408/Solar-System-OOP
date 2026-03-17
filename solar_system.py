@@ -20,7 +20,7 @@ class SolarSystem:
 
         with attributes name and star in the init function 
         """
-        self.name = name if name else "Unknown"
+        self.name =name
         self.star = star if star else Star("Unknown", 0.0, "Unknown")
         self.planets = self.read_planets()
 
@@ -74,6 +74,5 @@ class SolarSystem:
             
         return result
     
-
-""" this is string representation of the solar system class which includes name of the solar system star and planets with relevant attributes such as mass radius distance etc"""
+        """ this is string representation of the solar system class which includes name of the solar system star and planets with relevant attributes such as mass radius distance etc"""
 
